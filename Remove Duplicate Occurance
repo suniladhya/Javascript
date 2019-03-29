@@ -1,0 +1,2 @@
+$.each(names, function(i, el){if(uniqueNames.indexOf(el)===-1){uniqueNames.push(el)}})
+
