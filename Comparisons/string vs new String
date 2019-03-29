@@ -1,0 +1,10 @@
+a= new String()
+//String {""}length: 0__proto__: String[[PrimitiveValue]]: ""
+b=""
+//""
+a===b
+//false
+typeof(a)
+//"object"
+typeof(b)
+//"string"
