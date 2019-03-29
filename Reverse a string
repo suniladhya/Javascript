@@ -1,0 +1,19 @@
+Test".split("").reverse().join("")
+
+
+Reverse & sort a string
+num = [1,2,3,6,4,5,9]
+(7) [1, 2, 3, 6, 4, 5, 9]
+num.length
+7
+num.sort()
+(7) [1, 2, 3, 4, 5, 6, 9]
+num.sort().reverse()
+(7) [9, 6, 5, 4, 3, 2, 1]
+
+names = ["Mike","Matt","Nancy","Adam","Jenny","Nancy","Carl"];
+(7) ["Mike", "Matt", "Nancy", "Adam", "Jenny", "Nancy", "Carl"]
+names.sort
+ƒ sort() { [native code] }
+names.sort()
+(7) ["Adam", "Carl", "Jenny", "Matt", "Mike", "Nancy", "Nancy"]
