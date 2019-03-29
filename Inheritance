@@ -1,0 +1,30 @@
+       var Parent = function () {
+            this.Name = "none";
+            throw new Error("Should not create object of abstract class");
+        }
+
+        Parent.prototype.GetData = function () {
+            return "My father's name is " + this.Name;
+        }
+
+        var Child = function (fatherName) {
+            this.Name = fatherName;
+        }
+
+        Child.prototype = Object.create(Parent.prototype);
+
+        var child = new Child("Suresh Ch Mishra");
+        alert(child.GetData());
+
+        function SuperType(name) {
+            this.Name = "Durga Prasad";
+        }
+        function SubType() {
+            this.Age = 30;
+            SuperType.call(this, name);
+        }
+
+        var subtype = new SubType();
+        var age = subtype.Age;
+        var name = subtype.Name;
+        alert("My name -" + name + " and age is - " + age);
