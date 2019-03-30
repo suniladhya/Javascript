@@ -1,0 +1,2 @@
+S1: Find the sum
+Total = numArray.reduce(((total,num)=>total+num),0)
