@@ -1,4 +1,55 @@
 # Javascript
+Javascript is more of a functional programming rather than object oriented.
+
+* [Functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming) is more into solving the expression rather than sticking with objects.
+* Do Every thing with Fuction( input-> output)
+
+### Non Functional:(Imperative Style)
+declare name
+greeting = "Hi "+ name
+Console.log(greeting);
+
+### Funtional:(in terms of function)
+function greet(name){
+greeting = "Hi "+ name
+Console.log(greeting);
+}
+
+### Pure and Impure:
+Function that return only value instead of doing sth else is Pure function.
+
+function greet(name){
+greeting = "Hi "+ name
+return greeting;
+}
+
+### Higher Order Funtion
+Functin (within function)^n
+
+### Don't Iterate
+Instead of For use
+
+_map filter reduce_
+
+![](https://api.ning.com/files/-3i3rVffQH2bautHoYhtuyn-BhEFBMR3TNXJzACS9ATLysgH7VID6G3-DRqv65rcjsIwZ7riHJZ9rtS9XGWzIc326dpaeNvF/bor55.PNG)
+
+### Avoid Mutabillity
+numArr = [1, 2, 3, 4]
+numArr[0] = 7;
+
+### No Mutation
+    numArr.Map(
+    function (x){
+        if(x==1){
+            return 7;
+        }else
+            return x
+    });
+
+### Persistent data structures for efficient immutability
+* mori
+* immutable js
+Structural sharing
 
 ## Basic function:
 concat
@@ -18,8 +69,7 @@ Map
 
 Find, FindIndex
     //Finds value, index
-    numArr
-    (4) [1, 2, 3, 4]
+    numArr = [1, 2, 3, 4]
     numArr.findIndex(x=>x>2)
     2
     numArr.find(x=>x>2)
