@@ -62,7 +62,6 @@ str  =str + parseInt(BinaryArray.filter(x=>x.toString().split("0").join("").leng
     
     y+=2;
   }
-
 }
 
 process.stdin.resume();
