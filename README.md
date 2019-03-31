@@ -1,7 +1,8 @@
 # Javascript
 Javascript is more of a functional programming rather than object oriented.
 
-* [Functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming) is more into solving the expression rather than sticking with objects.
+* [Functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming)
+[2](https://www.recurse.com/blog) is more into solving the expression rather than sticking with objects.
 * Do Every thing with Fuction( input-> output)
 
 ### Non Functional:(Imperative Style)
@@ -88,8 +89,9 @@ Remove duplicates from a array
 Reverse a string
 
 [1](https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array)
-
 [2](http://techsith.com)
+[3 Closures](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
+[4 Tips tricks(http://javascriptissexy.com/12-simple-yet-powerful-javascript-tips/)
 
 ### Mixins
 Mixins are these pieces of code that you can mix with other objects to extend their functionality.
