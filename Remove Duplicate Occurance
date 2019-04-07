@@ -1,2 +1,3 @@
 $.each(names, function(i, el){if(uniqueNames.indexOf(el)===-1){uniqueNames.push(el)}})
 
+arr.sort().filter((x,index)=>arr.lastIndexOf(x)==arr.indexOf(x)?x:arr.splice(index,1))
