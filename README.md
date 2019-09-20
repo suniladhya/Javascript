@@ -2,6 +2,8 @@
 [1](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/src/questions/coding-questions.md)
 Javascript is more of a functional programming rather than object oriented.
 
+[Excellent blogging on JS](https://medium.com/javascript-scene/)
+
 * [Functional programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming)
 [2](https://www.recurse.com/blog) is more into solving the expression rather than sticking with objects.
 * Do Every thing with Fuction( input-> output)
