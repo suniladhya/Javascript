@@ -19,6 +19,19 @@ greeting = "Hi "+ name
 Console.log(greeting);
 }
 
+### Deep and Shallow copy [[1]](https://we-are.bookmyshow.com/understanding-deep-and-shallow-copy-in-javascript-13438bad941c)
+In shallow copy the reference of an object is assigned to another object. As a result when any change is done to either one copy,
+Changes get reflected in another variable.
+
+e.g, 
+var employeeDetailsOriginal = {  name: 'Manjula', age: 25, Profession: 'Software Engineer' };
+var employeeDetailsDuplicate = employeeDetailsOriginal; //Shallow copy!
+
+employeeDetailsDuplicate.name = 'NameChanged';//employeeDetailsOriginal value will get changed
+
+Deep copy creates an exact copy of the object in the new location. Hence changes are private to the respective variable.
+
+e.g, var employeeDetailsDuplicate = { name: employeeDetailsOriginal.name, age: employeeDetailsOriginal.age, Profession: employeeDetailsOriginal.Profession}; //Deep copy!
 ### Pure and Impure:
 Function that return only value instead of doing sth else is Pure function.
 
